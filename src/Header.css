@@ -1,0 +1,73 @@
+.header{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+   
+}
+.headerr{
+     position: sticky;
+    top: 0px;
+    z-index:100;
+}
+
+.header__logo{
+    width: 100px;
+    object-fit: contain; /*keep in shape the image*/
+    margin: 0 15px;
+    margin-top:10px;
+   
+}
+.fa-search{
+    background-color: orange;
+    padding: 8px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__optionlineOne{
+    font-size: 10px;
+}
+.header__optionlineTwo{
+   font-size: 13px;
+   font-weight: 800; 
+}
+
+
+.header__link{
+    color: white;
+    text-decoration: none ;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__basketCount{
+    margin-right:10px;
+}
+i{
+    padding:8px;
+    padding-right:0px;
+}
+
+.header__search{
+    display: flex;
+    flex:1;/*it mean uh look as big as u want..so it gonna spread out*/ 
+}
+
+.header__searchInput{
+    height:12px;
+    padding:10px;
+    border:none;
+    width: 100%;
+}
+
+.header__optionBasket{
+    display:flex;
+}
+
+
