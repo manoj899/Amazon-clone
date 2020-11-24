@@ -15,7 +15,7 @@ const Login = () => {
         .then((auth) => {
             history.push('/');
         })
-        .catch(e => alert(e.message));  
+        .catch(e => alert(e.message));
     }
 
     const register = event => {
