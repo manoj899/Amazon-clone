@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from "./primeimg.png"
 import TV1 from "./productimg/TV1.png"
+import {Row,Col} from "reactstrap"
 import TV2 from "./productimg/TV2.png"
 import mobile1 from "./productimg/mobile1.png"
 import mobile2 from "./productimg/mobile2.png"
@@ -17,6 +18,8 @@ const Home = () => {
             <img className="home__image" src={Logo} ></img>
 
             <div className="home__row">
+                <Row>
+                <Col xs="6">
                 <Product
                 id="2112"
                 title="The Lean Startup:How constant Innovation Creates"
@@ -24,7 +27,9 @@ const Home = () => {
                 price={32.4}
                 rating={5}
                 />
-
+                <Col>
+        
+                <Col xs="6">
                 <Product
                     id="212"
                     title="Start with why...Find your why"
@@ -32,6 +37,8 @@ const Home = () => {
                     price={32.4}
                     rating={5}
                 />
+                <Col>
+             </Row>
             </div>
             
             <div className="home__row">
