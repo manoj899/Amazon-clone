@@ -9,7 +9,7 @@ const Login = () => {
     const [password,setPassword] = useState('');
     
     const login = event => {
-        event.preventDefault();//this stop the refresh!!!
+        event.preventDefault();
         //do the login logic...
         auth.signInWithEmailAndPassword(email, password)
         .then((auth) => {
@@ -19,7 +19,7 @@ const Login = () => {
     }
 
     const register = event => {
-        event.preventDefault(); //stop refresh and do the register logic
+        event.preventDefault(); 
     
         auth.createUserWithEmailAndPassword(email, password)
         .then(auth => {
